@@ -13,9 +13,9 @@ namespace BIT706A1
 
         //Insert constructor for showin transaction calculation
 
-        public showTransaction(string)
+       /* public showTransaction(string)
         {
 
-        }
+        }*/
     }
 }

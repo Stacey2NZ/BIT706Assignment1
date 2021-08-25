@@ -66,6 +66,7 @@
             this.investmentBtn.TabIndex = 2;
             this.investmentBtn.Text = "Investment";
             this.investmentBtn.UseVisualStyleBackColor = true;
+            this.investmentBtn.Click += new System.EventHandler(this.investmentBtn_Click);
             // 
             // omniBtn
             // 
@@ -76,6 +77,7 @@
             this.omniBtn.TabIndex = 3;
             this.omniBtn.Text = "Omni";
             this.omniBtn.UseVisualStyleBackColor = true;
+            this.omniBtn.Click += new System.EventHandler(this.omniBtn_Click);
             // 
             // exitBtn
             // 

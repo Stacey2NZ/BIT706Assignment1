@@ -16,5 +16,22 @@ namespace BIT706A1
         {
             InitializeComponent();
         }
+
+        private void OmniForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            string message = "Are you sure you want to exit?";
+            string title = "Close Application";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult dialogResult = MessageBox.Show(message, title, buttons);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
     }
 }
