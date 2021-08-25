@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace BIT706A1
 {
-    abstract class Person
+    class Staff : Person
     {
-        string name;
-        string address;
-        string phoneNo;
+        int staffNo;
     }
 }
