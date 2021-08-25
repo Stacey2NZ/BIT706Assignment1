@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BIT706A1
+{
+    class Person
+    {
+        string name;
+        string address;
+        string phoneNo;
+    }
+}
